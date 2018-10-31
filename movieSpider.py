@@ -18,7 +18,6 @@ class video_downloader(object):
 		self.info = ""
 		self.server = "http://api.xfsub.com"
 		self.api = "http://api.xfsub.com/index.php?url="
-		self.get_url_api = ""
 		self.url = url.split('#')[0]
 		self.target = self.api + self.url
 		self.s = requests.session()
