@@ -145,3 +145,5 @@ ckey1值是用JS加密后得出的，看不太懂JS于是我下载了加密ckey1
 			self.ckey = quote(js_data.call("sign",self.url))
 
 通过这段代码得到了ckey1的值，发送数据包，得到视频地址，然后进行下载，整个过程主要是得到视频的URL地址
+
+请勿用于非法用途，否则后果自负
